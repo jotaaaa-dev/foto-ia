@@ -1,0 +1,35 @@
+/* Folha de estilo do App */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+    background-color:lightcyan;
+    color:rgb(71, 71, 71);
+    font-family: 'Akaya Telivigala',sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh; /* Viewport Height */
+}
+
+button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(69, 49, 252, 0.89);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+img{
+    width: 128px;
+    border-radius: 64px;
+    margin: 5px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+}
