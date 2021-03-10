@@ -17,11 +17,19 @@ button{
     font-size: 20px;
     margin: 20px;
     padding: 10px;
-    background-color: rgba(69, 49, 252, 0.89);
+    background-color: cadetblue;
     border-radius: 10px;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
+button:hover{/* Quando o mouse está posicionado em cima */
+    background-color: aliceblue;
+    color: cadetblue;
+    border: 1px solid;
+
+} 
+
 
 img{
     width: 128px;
@@ -29,7 +37,13 @@ img{
     margin: 5px;
 }
 
-.fotos{
+.linha{
     display: flex;
     flex-direction: row;
+}
+
+label, select {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
