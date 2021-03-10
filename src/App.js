@@ -11,7 +11,7 @@ function App(){
   const[carregando, setCarregando] = useState(false)
   const[idade, setIdade] = useState('')
   const[etnia, setEtnia] = useState('')
-  const estiloIcone = {background: 'cadetblue', fontSize: '1.1em'}
+  const estiloIcone = background: 'cadetblue', fontSize: '1.1em'}
 
   function ListaPessoas(){
     const listagemPessoas= pessoas.map((pessoa)=>
